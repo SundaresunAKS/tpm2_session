@@ -26,7 +26,7 @@ this repo contain tpm2 session sample codes.
 **sudo ./app**
 
 ## Step 3 (Read NV data using tpm2-tools cmd)
-**sudo tpm2_nvread 0x01500020 -P "passNvAuth" -o nvDataRead.txt**
+**sudo tpm2_nvread 0x01500020 -P "passNvAuth" -o nvDataRead.txt**\
 **sudo cat nvDataRead.txt**
 
 *makesure nvDataRead.txt contails "bound/unsalt with param encrypt"*
