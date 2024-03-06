@@ -26,8 +26,10 @@ this repo contain tpm2 session sample codes.
 **sudo ./app**
 
 ## Step 3 (Read NV data using tpm2-tools cmd)
-**sudo tpm2_nvread 0x01500020 -P "passNvAuth" -o nvDataRead.txt
-cat nvDataRead.txt**\
+**sudo tpm2_nvread 0x01500020 -P "passNvAuth" -o nvDataRead.txt**
+**sudo cat nvDataRead.txt**
+
 *makesure nvDataRead.txt contails "bound/unsalt with param encrypt"*
 
-*this code was test in raspberry pi with slb7672*
+*This code was test in raspberry pi with slb7672*
+*This code was modified form the [intergity test code of tpm2-tss](https://github.com/tpm2-software/tpm2-tss/tree/master/test/integration)*
